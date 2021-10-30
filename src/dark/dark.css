@@ -1,0 +1,87 @@
+/* @theme dark */
+
+@import "default";
+
+section.lead {
+  justify-content: center;
+  text-align: center;
+}
+section.h1-big h1 {
+  font-size: 10rem;
+}
+section {
+  justify-content: start;
+  padding: 100px 80px;
+  color: #c9d1d9;
+  background-color: #0d1116;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI,
+    Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial,
+    メイリオ, Meiryo, sans-serif;
+}
+section h1 {
+  color: #c9d1d9;
+}
+header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #161b22;
+  vertical-align: baseline;
+  border-bottom: 1px solid #8b949e;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 12px 20px;
+  color: #c9d1d9;
+}
+header img {
+  justify-content: end;
+  height: 100%;
+  background-color: transparent;
+}
+footer {
+  background-color: #0d1116;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #c9d1d9;
+}
+footer img {
+  justify-content: end;
+  height: 100%;
+  background-color: transparent;
+}
+section::after {
+  color: #c9d1d9;
+  top: 10px;
+}
+ul {
+  padding-left: 0px;
+}
+li {
+  list-style-type: none;
+  padding: 0px;
+  vertical-align: middle;
+}
+li:before {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  content: "";
+  background: #fbc600;
+  margin-right: 10px;
+  margin-bottom: px;
+}
+blockquote {
+  color: #8b949e;
+}
+pre {
+  border: none;
+  background-color: #161b22;
+}
