@@ -70,3 +70,21 @@ pre {
   border: none;
   background-color: #161b22;
 }
+section > ul {
+  padding-left: 0px;
+}
+li {
+  list-style-type: none;
+  padding: 0px;
+  vertical-align: middle;
+}
+li:before {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  content: "";
+  background: #fbc600;
+  margin-right: 10px;
+  margin-bottom: 0.1rem;
+}
