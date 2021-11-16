@@ -22,6 +22,7 @@ section h1 {
   color: #c9d1d9;
 }
 header {
+  box-sizing: border-box;
   left: 0;
   top: 0;
   width: 100%;
@@ -40,6 +41,7 @@ header img {
   background-color: transparent;
 }
 footer {
+  box-sizing: border-box;
   background-color: #0d1116;
   width: 100%;
   left: 0;
