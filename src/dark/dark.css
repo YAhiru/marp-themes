@@ -60,24 +60,6 @@ section::after {
   color: #c9d1d9;
   top: 10px;
 }
-ul {
-  padding-left: 0px;
-}
-li {
-  list-style-type: none;
-  padding: 0px;
-  vertical-align: middle;
-}
-li:before {
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  content: "";
-  background: #fbc600;
-  margin-right: 10px;
-  margin-bottom: px;
-}
 blockquote {
   color: #8b949e;
 }
