@@ -73,12 +73,13 @@ pre {
 section > ul {
   padding-left: 0px;
 }
-li {
+ul li {
   list-style-type: none;
+  margin-left: 1em;
   padding: 0px;
   vertical-align: middle;
 }
-li:before {
+ul li:before {
   border-radius: 50%;
   width: 15px;
   height: 15px;
@@ -87,4 +88,34 @@ li:before {
   background: #fbc600;
   margin-right: 10px;
   margin-bottom: 0.1rem;
+}
+ol {
+  padding: 0;
+  counter-reset: ol_counter;
+}
+ol li {
+  list-style: none;
+  margin-left: 1em;
+}
+ol li:before {
+  margin-right: 0.25em;
+  counter-increment: ol_counter;
+  content: counter(ol_counter) ".";
+  color: #fbc600;
+}
+table {
+  color: #0d1116;
+}
+section table tr {
+  background-color: #f0f0f0;
+}
+section table tr:nth-child(2n) {
+  background-color: #e8e8e8;
+}
+section.img-transparent img {
+  background-color: transparent;
+}
+section.img-center img {
+  display: inline-block;
+  margin-left: 100px;
 }
